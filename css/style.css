@@ -1,3 +1,4 @@
+/* GLOBAL */
 body {
   margin: 0;
   font-family: 'Lato', sans-serif;
@@ -30,11 +31,6 @@ p {
   color: white;
   font-size: 30px;
   font-weight: bold;
-  /* text-shadow:
-            -1px -1px 0 #000,  
-             1px -1px 0 #000,
-            -1px 1px 0 #000,
-             1px 1px 0 #000; */
   -webkit-text-stroke: 1px #FF565D;
 }
 .logo img {
@@ -44,14 +40,12 @@ p {
   font-family: 'Lata',sans-serif;
   max-width: 600px;
   width: 100%;
-  /* height: 35px; */
   border-radius: 10px;
   border: 1px solid rgb(200, 200, 200);
   padding: 12px 10px;
 }
 .searcher:focus {
   border: 1px solid #FF565D;
-  /* box-shadow: inset 0px 0px 0px 1px #FF565D; */
 }
 .user {
   display: flex;
@@ -69,6 +63,8 @@ p {
   filter: opacity(40%);
 }
 
+/* LEFT MENU */
+
 .left-menu {
   display: grid;
   grid-template-rows: 90px 90px 90px 1fr;
@@ -80,7 +76,6 @@ p {
 .left-menu a:nth-child(4) {
   align-self: end;
   padding-bottom: 1em;
-  /* justify-self: end; */
 }
 
 .left-menu a {
@@ -103,6 +98,7 @@ p {
   transition: .5s;
 }
 
+/* MOVIES SECTION */
 .movies {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -117,7 +113,6 @@ p {
 .movies a {
   color: white;
   position: relative;
-  /* overflow: hidden; */
 }
 .movies img {
   width: 100%;
@@ -141,7 +136,6 @@ p {
   align-self: end;
 }
 .overlay {
-  /* display: none; */
   position: absolute;
   background: rgba(0,0,0,0.7);
   top: 75%;
@@ -158,7 +152,6 @@ p {
   margin-bottom: 10px
 }
 .overlay p {
-  /* padding-top: 20px; */
   padding: 0;
   font-weight: 300;
   font-size: 1.1em;
